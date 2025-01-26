@@ -19,6 +19,7 @@
         <argLine>-Dfile.encoding=UTF-8</argLine>
         <scala.version>2.11</scala.version>
         <scala.library.version>2.11.8</scala.library.version>
+        <earthea.version>1.0.0</earthea.version>
         <!-- jackson -->
         <jackson.version>2.16.2</jackson.version>
         <fastjson.version>1.2.9</fastjson.version>
@@ -38,6 +39,68 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- earthea start -->
+            <dependency>
+                <groupId>com.earthea</groupId>
+                <artifactId>earthea-cipher</artifactId>
+                <version>${earthea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.earthea</groupId>
+                <artifactId>earthea-common</artifactId>
+                <version>${earthea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.earthea</groupId>
+                <artifactId>earthea-compress</artifactId>
+                <version>${earthea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.earthea</groupId>
+                <artifactId>earthea-excel</artifactId>
+                <version>${earthea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.earthea</groupId>
+                <artifactId>earthea-log</artifactId>
+                <version>${earthea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.earthea</groupId>
+                <artifactId>earthea-rest</artifactId>
+                <version>${earthea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.earthea</groupId>
+                <artifactId>earthea-application-cache</artifactId>
+                <version>${earthea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.earthea</groupId>
+                <artifactId>earthea-application-lock</artifactId>
+                <version>${earthea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.earthea</groupId>
+                <artifactId>earthea-application-task</artifactId>
+                <version>${earthea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.earthea</groupId>
+                <artifactId>earthea-integration-common</artifactId>
+                <version>${earthea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.earthea</groupId>
+                <artifactId>earthea-integration-datasource</artifactId>
+                <version>${earthea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.earthea</groupId>
+                <artifactId>earthea-integration-redis</artifactId>
+                <version>${earthea.version}</version>
+            </dependency>
+            <!-- earthea end -->
             <!-- json start -->
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
