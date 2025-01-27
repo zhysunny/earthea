@@ -5,8 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.earthea</groupId>
-        <artifactId>earthea</artifactId>
+        <artifactId>earthea-parent</artifactId>
         <version>1.0.0</version>
+        <relativePath>../earthea-parent/pom.xml</relativePath>
     </parent>
 
     <artifactId>earthea-core</artifactId>
